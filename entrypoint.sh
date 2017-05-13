@@ -1,6 +1,4 @@
 #!/bin/bash
-echo $@
-set -x
 if ([ -z "$1" -o -z "$2" ]) 
 then
 	echo "Syntax: docker run -ti hsmade/python3_runner https://github.com/test/me.git run_me.py arg1 arg2"
